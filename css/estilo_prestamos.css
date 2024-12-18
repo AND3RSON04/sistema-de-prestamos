@@ -1,0 +1,26 @@
+.a-x{
+  margin-top: 20px;
+
+}
+#card{
+    background-color: white;
+    color: black;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.card-rojo {
+    background-color: #ad0513; 
+    
+
+}
+.card-verde {
+    background-color: #087722; 
+
+}
+.card-celeste {
+    background-color: #0dbedd; 
+    
+}
+#color{
+    color: white;
+}
