@@ -27,14 +27,14 @@ exit;
         <div id="menu">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sistema de Préstamos</a>
+    <img class="pres" src="img/icopres.jpg" alt="" >
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav ms-auto nav-pills">
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#" id="usuarios">
             <i class="bi bi-person"></i> Usuarios
           </a>
         </li>
@@ -45,7 +45,7 @@ exit;
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" id="pagos">
-          <i class="bi bi-wallet"></i> pagos
+          <i class="bi bi-wallet"></i> Pedidos
           </a>
         </li>
         <li class="nav-item">
@@ -69,7 +69,7 @@ exit;
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../index.php">
+          <a class="nav-link" href="../index.php" id="salir">
           <i class="bi bi-box-arrow-left fs-6 me-2"></i>Salir
           </a>
         </li>

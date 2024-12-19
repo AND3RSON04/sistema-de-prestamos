@@ -11,7 +11,7 @@
  Target Server Version : 100432 (10.4.32-MariaDB)
  File Encoding         : 65001
 
- Date: 17/12/2024 19:04:03
+ Date: 18/12/2024 20:15:46
 */
 
 SET NAMES utf8mb4;
@@ -51,15 +51,16 @@ CREATE TABLE `detalle_prestamos`  (
   PRIMARY KEY (`codigo_p`) USING BTREE,
   INDEX `detalle_prestamo`(`codigo` ASC) USING BTREE,
   CONSTRAINT `detalle_prestamo` FOREIGN KEY (`codigo`) REFERENCES `prestamos` (`codigo`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of detalle_prestamos
 -- ----------------------------
-INSERT INTO `detalle_prestamos` VALUES (1, 2, 1, '2024-12-17', 110, 'Pendiente');
-INSERT INTO `detalle_prestamos` VALUES (2, 1, 2, '2024-12-17', 110, 'Pendiente');
-INSERT INTO `detalle_prestamos` VALUES (3, 1, 1, '2024-12-17', 110, 'Pendiente');
-INSERT INTO `detalle_prestamos` VALUES (4, 1, 1, '2024-12-17', 110, 'Pendiente');
+INSERT INTO `detalle_prestamos` VALUES (1, 2, 1, '2024-12-17', 110, 'Pagado');
+INSERT INTO `detalle_prestamos` VALUES (2, 1, 2, '2024-12-17', 110, 'Pagado');
+INSERT INTO `detalle_prestamos` VALUES (3, 1, 1, '2024-12-17', 110, 'Pagado');
+INSERT INTO `detalle_prestamos` VALUES (4, 1, 3, '2024-12-17', 110, 'Pagado');
+INSERT INTO `detalle_prestamos` VALUES (5, 6, 1, '2024-12-19', 110, 'Pagado');
 
 -- ----------------------------
 -- Table structure for prestamos

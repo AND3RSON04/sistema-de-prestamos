@@ -10,6 +10,14 @@ $("#prestamos").click(function(){
     $("#paginas").load("vistas/prestamos.php");
 });
 
+$("#usuarios").click(function(){
+    $("#paginas").load("vistas/usuarios.php");
+});
+
+$("#salir").click(function(){
+    $("#paginas").load("vistas/index.php");
+});
+
 $(document).on('change','#ttip',function(){
     var tipo=$('#ttip').val();
     alert(tipo)

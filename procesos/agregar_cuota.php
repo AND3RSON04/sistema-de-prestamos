@@ -1,7 +1,7 @@
 <?php
 include("../conexion/conexion.php");
 $codigo=$_POST['codigo'];
-$num_cuot=$_POST['numero_cuota'];
+$num_cuot=$_POST['cuota_numero'];
 $fecha=$_POST['fecha_pago'];
 $cuota=$_POST['cantidad_pagada'];
 $estado=$_POST['estado'];
